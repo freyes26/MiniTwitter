@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main_graph"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.minitwitter.ui.Login"
+        android:label="Login" >
+        <action
+            android:id="@+id/action_login_to_homeMinitwitter"
+            app:destination="@id/homeMinitwitter" />
+        <action
+            android:id="@+id/action_login_to_singUp"
+            app:destination="@id/singUp" />
+    </fragment>
+    <activity
+        android:id="@+id/homeMinitwitter"
+        android:name="com.example.minitwitter.HomeMiniTwitter"
+        android:label="activity_home_minitwitter"
+        tools:layout="@layout/activity_home_minitwitter" />
+    <fragment
+        android:id="@+id/singUp"
+        android:name="com.example.minitwitter.ui.SingUp"
+        android:label="SingUp" >
+        <action
+            android:id="@+id/action_singUp_to_homeMinitwitter"
+            app:destination="@id/homeMinitwitter" />
+    </fragment>
+</navigation>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MiniTwitter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Username">Nombre</string>
+    <string name="Login">Iniciar sesión</string>
+    <string name="pws">Contraseña</string>
+    <string name="register">Si aún no tienes cuenta, registrate aqui.</string>
+    <string name="Email">Email</string>
+    <string name="singup_title">Registrate</string>
+    <string name="singin_title">Inciar sesín</string>
+    <string name="singUp">Crear cuenta</string>
+    <string name="close">Cerrar</string>
+    <string name="required_email">El usuario es requerido</string>
+    <string name="requeired_pws">La contraseña es requerida</string>
+    <string name="requeired_username">El nombre de usuario es requerido</string>
+    <string name="old_acount">Ya tengo una cuenta</string>
+    <string name="title_dialog_witouh_internet">Sin conexión</string>
+    <string name="settings">Configuracion</string>
+    <string name="title_dialog_error">Ocurrio un error</string>
+    <string name="title_activity_home2">MainActivity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_note">Home</string>
+    <string name="title_favorite">Favoritos</string>
+    <string name="title_acount">Cuenta</string>
+    <string name="title_activity_prueba">Prueba</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_home">Inicio</string>
+</resources>
